@@ -305,8 +305,8 @@
 #endif // defined(AT91SAM7S256)
 
 // Macros to toggle state of activity LED on board
-#define ACTLED_OFF do { IO_SetOutputData(PIN_ACT_LED); } while (0)
-#define ACTLED_ON do { IO_ClearOutputData(PIN_ACT_LED); } while (0)
+#define ACTLED_ON do { IO_SetOutputData(PIN_ACT_LED); } while (0)
+#define ACTLED_OFF do { IO_ClearOutputData(PIN_ACT_LED); } while (0)
 
 //---------------------------------------------------------------------------
 
